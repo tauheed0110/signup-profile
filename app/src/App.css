@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 2rem;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#formContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+input{
+  padding: 10px 0px;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  font-size: 14px;
+}
+.formItem{
+  margin: 10px 0px;
+}
+
+button{
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+#profileContainer > h1, h2{
+  font-weight: 400;
+  margin: 1rem 0px;
+}
+#profileContainer{
+  margin: 2rem;
+}
+.logError{
+  font-size: 14px;
+  color: red;
+  margin: 7px 0px;
+}
+.logSuccess{
+  font-size: 14px;
+  color: green;
+  margin: 7px 0px;
+}
