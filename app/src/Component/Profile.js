@@ -14,6 +14,7 @@ const Profile = () => {
     }, [])
     function handleLogout(){
         localStorage.removeItem('user');
+        alert("User Logged Out");
         setTimeout(()=>{
             navigate('/');
         }, 500);
